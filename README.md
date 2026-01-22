@@ -21,7 +21,7 @@ The backend uses:
 
 ---
 
-## 📌 Features
+## Features
 
 - Create a loan for a customer
 - Calculate EMI and generate monthly installments
@@ -34,7 +34,7 @@ The backend uses:
 
 ---
 
-## 🛠️ Database Setup
+## Database Setup
 
 Includes 4 major tables
 customer_details
@@ -145,7 +145,7 @@ Expected output :
 🚀 LMS Server running on http://localhost:8080
 ```
 
-## 📡 API Documentation
+## API Documentation
 
 The LMS backend exposes the following REST-style APIs using Java’s built-in HTTP server.
 
