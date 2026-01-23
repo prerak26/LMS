@@ -2,7 +2,6 @@
 # Loan Management System (LMS) – Backend
 
 This repository contains a **Java-based backend Loan Management System (LMS)**.
-For broad level schema and api design, Refer : https://drive.google.com/file/d/18zc--qJWiU5CLr5j_AdukC8i8sowamc7/view?usp=sharing
 
 The system supports:
 
@@ -43,6 +42,10 @@ loan_details
 payment_table
 
 ### Create database
+
+<img width="2048" height="617" alt="Screenshot 2026-01-17 at 10 53 53 PM" src="https://github.com/user-attachments/assets/570ac879-2056-4755-a1e5-58a9e19659c5" />
+<img width="944" height="584" alt="Screenshot 2026-01-17 at 10 54 21 PM" src="https://github.com/user-attachments/assets/6a097642-f5f4-4b4c-9bb0-148ce2f58de1" />
+
 
 ```sql
 CREATE DATABASE lms_db;
@@ -148,6 +151,8 @@ Expected output :
 ## API Documentation
 
 The LMS backend exposes the following REST-style APIs using Java’s built-in HTTP server.
+<img width="356" height="737" alt="Screenshot 2026-01-23 at 12 21 06 PM" src="https://github.com/user-attachments/assets/3b2259b3-809f-44f3-a356-b00752303423" />
+
 
 ### Create Loan
 
@@ -178,6 +183,10 @@ Get the loan schedule.
 - Full payments update installment status to PAID
 - Advance payments can close future EMIs
 - DPD (Days Past Due) is calculated as: current_date - installment_due_date
+
+  Allocation Logic:
+  <img width="408" height="629" alt="Screenshot 2026-01-17 at 10 54 11 PM" src="https://github.com/user-attachments/assets/e074ddcf-882e-4a4a-b14c-b5e5f1a948cc" />
+
 
 ## Assumptions
 
